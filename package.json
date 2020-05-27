@@ -1,6 +1,6 @@
 {
   "name": "local-cors-proxy",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "./lib/index.js",
   "scripts": {
     "start": "node ./bin/lcp.js",
@@ -9,11 +9,11 @@
   "bin": {
     "lcp": "./bin/lcp.js"
   },
-  "author": "Gary Meehan",
+  "author": "Gary Meehan, Andrew Druchenko",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/garmeeh/local-cors-proxy.git"
+    "url": "git+https://github.com/bananos/local-cors-proxy.git"
   },
   "keywords": [
     "cors",
@@ -23,14 +23,15 @@
     "express"
   ],
   "bugs": {
-    "url": "https://github.com/garmeeh/local-cors-proxy/issues"
+    "url": "https://github.com/bananos/local-cors-proxy/issues"
   },
-  "homepage": "https://github.com/garmeeh/local-cors-proxy#readme",
+  "homepage": "https://github.com/bananos/local-cors-proxy#readme",
   "dependencies": {
     "chalk": "^2.3.2",
     "command-line-args": "^5.0.2",
     "cors": "^2.8.4",
     "express": "^4.16.3",
-    "request": "^2.85.0"
+    "request": "^2.85.0",
+    "dotenv": "^8.2.0"
   }
 }

@@ -53,3 +53,9 @@ Alternatively you can install the package locally and add a script to your proje
 | --port         | 8010                  |    8010 |
 | --credentials  | (no value needed)     |   false |
 | --origin       | http://localhost:4200 |       * |
+
+## env vars
+It is possible to set custom cookies when doing upstream requests. Add the following to your `.env` file:
+```
+LCP_COOKIE=my_token=12312; sessionId=12313212
+```
